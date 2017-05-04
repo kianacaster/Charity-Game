@@ -1,4 +1,6 @@
+// Player constructor - takes an x and y position
 function Player(x, y){
+	// Turn it's position into a vector
 	this.pos = createVector(x,y);
 	this.jumping = false;
 	this.dir = 0;
